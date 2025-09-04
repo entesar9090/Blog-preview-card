@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      background-color:hsl(47, 88%, 63%);
+      font-family: "Figtree", sans-serif;
+      
+
+    }
+    main{
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      
+      
+    }
+    .home{
+      max-width: min-content;
+      height: 350px;
+      background-color: white;
+      padding: 20px;;
+      border-radius: 5%;
+      border:2px solid black;
+    
+      box-shadow: 5px 5px 0px black;
+      
+ 
+    }
+    img{
+      border-radius: 5%;
+    }
+    button{
+      margin-top: 10px;;
+      font-size: 10px;
+      padding: 7px;
+      background-color: hsl(47, 88%, 63%);
+      border: none;
+      font-weight: 900;
+    
+    }
+    p{
+      font-size: 14px;;
+      line-height: 1.5;
+      font-size: 12px;
+      color: hsl(0, 0%, 42%);
+    }
+.n{
+  display: flex;
+  align-items: center;
+  gap:10px;
+  font-size: 10px;
+  font-weight:bold
+}
+h1{
+  padding-top: 5px;;
+  font-size: 10px;
+  opacity: 0.6;
+}
+h2{
+  font-size: 16px;
+  font-weight: 800;
+}
+.n{
+  padding-top: 10px;;
+}
+h2:hover{
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+
+}
+@media (max-width:650px ) {
+  main{
+    max-width: max-content;
+    margin: auto;
+  }
+  
+}
+
+    
+  </style>
+</head>
+<body>
+  <main>
+  <div class="home">
+    <img src="illustration-article.svg" alt="" width="200px;">
+<button>
+  Learning
+  </button>
+  <h1>
+
+  Published 21 Dec 2023
+  </h1>
+
+  <h2>
+  HTML & CSS foundations
+</h2>
+<p>
+  These languages are the backbone of every website, defining structure, content, and presentation.
+</p>
+<div class="n">
+<img src="image-avatar.webp" alt="" width="30px;">
+  Greg Hooper
+</div>
+  </div>
+  </main>
+  <footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </div>
+</body>
+</html>
